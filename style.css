@@ -1,0 +1,441 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.Main-div{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+}
+.Header{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    height: 75px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    z-index: 3;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+
+.list1 , .logo{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+   
+
+}
+.list1 li{
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+
+
+.list1 a:hover {
+    color: #e99c2e;
+
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footerLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    
+    height: 350px;
+    align-items: center;
+
+}
+.footerLists p{
+    font-weight: bolder;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.footerlst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    align-items:flex-start;
+    height: 150px;
+    
+}
+.footerlst a{
+    
+    color: #a09e9c;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+.footerlst a:hover{
+    
+    color:#e99c2e;
+    margin-left:5px;
+
+    
+}
+
+.list1 a{
+    
+    text-decoration: none;
+
+}
+
+
+.pg1{
+    color: #e99c2e;
+}
+.pg2{
+    color: #e99c2e;
+}
+.pg3{
+    color: #e99c2e;
+}
+.pg4{
+    color: #e99c2e;
+}
+.pg5{
+    color: #e99c2e;
+}
+.pg6{
+    color: #e99c2e;
+}
+
+.pg11{
+    color: #a09e9c;
+}
+.pg22{
+    color: #a09e9c;
+}
+.pg33{
+    color: #a09e9c;
+}
+.pg44{
+    color: #a09e9c;
+}
+.pg55{
+    color: #a09e9c;
+}
+.pg66{
+    color: #a09e9c;
+}
+
+
+
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #a09e9c;
+    
+    background-color: #fff;
+}
+
+.list-footer-logo{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.content-div{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    margin-top: 200px;
+    width: 100%;
+    z-index: -1;
+    padding-bottom: 100px;
+    
+
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 60%;
+
+}
+
+.c1{
+    color: #a09e9c;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.c2{
+    color: rgb(51, 50, 50);
+    font-size: 45px;
+    font-weight: 550;
+}
+
+.c3{
+    color:#a09e9c;
+}
+.btn1{
+    color: white;
+    width: 150px;
+    border: none;
+    height: 70px;
+    background-color: #e99c2e;
+}
+.svgg{
+    width: 20px;
+    height: 20x;
+    margin-right: 20px;
+}
+.cont2{
+    
+    flex-basis: 40%;
+    height: 450px;
+
+}
+.cont2 img{
+    object-fit: cover;
+}
+
+.c1,.c2,.c3,.c4{
+    margin-left: 200px;
+}
+
+.title{
+    color: #e99c2e;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+/** FORM **/
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+.signup-div{
+    margin-top: 100px;
+    display: flex;
+     flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+
+
+}
+.new-cont{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+
+}
+.new2{
+    color:#a09e9c;
+}
+.new-title{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a09e9c;
+    font-size: 50px;
+    font-weight: 30;
+    margin-bottom: 50px;
+}
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.fea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.fea1{
+    margin: 10px;
+}
+
+.new1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color:#f1eeeb ;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.new1:hover{
+    width:270px ;
+    height: 320px;
+    background-color: #cac8c7;
+
+}
+.sign{
+    width: 1000px;
+}
+
+.iconz li{
+  margin-left: 5px;
+}
+
+
+.blog :hover{
+    border: 3px solid gray;
+    width: 350px;
+
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
+  .form2{
+      width: 700px;
+  }
+  .foo{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: #cac8c7;
+      font-size: 40px;
+      font-weight: 30;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
